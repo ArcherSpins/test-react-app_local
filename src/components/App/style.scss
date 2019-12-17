@@ -1,0 +1,117 @@
+$grayColor: #efeeee;
+$bgContainer: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+
+  ::-webkit-scrollbar-button {
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+  }
+
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+  }
+
+  ::-webkit-resizer{
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+  }
+
+  ::-webkit-scrollbar{
+    width: 4px;
+  }
+}
+
+html, body {
+  background-color: $grayColor;
+
+  height: 100%;
+
+  #root, .app, .page {
+    height: 100%;
+    overflow-y: hidden;
+  }
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.app {
+  background-image: url(https://mmedia.ozone.ru/multimedia/1019980907.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.full-image {
+  display: block;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: $bgContainer;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.comments-container {
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.description {
+  word-break: break-word;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex {
+  flex: 1;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.align-items-center {
+  align-items: center;
+}
